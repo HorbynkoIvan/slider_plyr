@@ -1,0 +1,27 @@
+.plyr {
+  position: relative;
+  &__control--overlaid {
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    //background: rgba(205, 36, 47, .8);
+
+    &:hover {
+     //background: rgba(205, 36, 47, 1) !important;
+    }
+  }
+
+  &__control:hover {
+   // background: rgba(205, 36, 47, 1) !important;
+  }
+
+  &__volume input,
+  &__progress input {
+  //  color: rgba(205, 36, 47, 1) !important;
+  }
+  //my
+  &__video-wrapper{
+    padding: 0 !important;
+  }
+}
